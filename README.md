@@ -34,9 +34,15 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 
 [viewing-all-defined-variables](https://stackoverflow.com/questions/633127/viewing-all-defined-variables)<br>
 
-        dir() #will give you the list of in scope variables:
-        globals() #will give you a dictionary of global variables
-        locals() #will give you a dictionary of local variables
+        dir()     # will give you the list of in scope variables:
+        globals() # will give you a dictionary of global variables
+        locals()  # will give you a dictionary of local variables
+        %who      # list of all current user-defined variables
+        %whos     # same with more details
+        for name in vars().keys():
+            print(name)
+        for value in vars().values():
+            print(value)
         
 []()<br>
 []()<br>
