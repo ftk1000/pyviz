@@ -1,5 +1,5 @@
-# pyviz
-python visualization tricks
+# pyviz - python visualization tricks
+[2019: HABR: группировки и визуализации данных в Python](https://habr.com/ru/company/mailru/blog/445834/)<br>
 
 2020.05.16
 
