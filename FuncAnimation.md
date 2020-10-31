@@ -1,5 +1,5 @@
 []()<br>
-[]()<br>
+[MATPLOTLIB ANIMATION:  https://matplotlib.org/3.1.1/api/animation_api.html](https://matplotlib.org/3.1.1/api/animation_api.html)<br>
 [YT 2015: How to use FFMPEG](https://www.youtube.com/watch?v=MPV7JXTWPWI)<br>
 [STACKOVERFLOW: Suggestions on how to install ffmpeg](https://stackoverflow.com/questions/13316397/matplotlib-animation-no-moviewriters-available)<br>
 [WIKIHOW: How to Install FFmpeg on Windows](https://www.wikihow.com/Install-FFmpeg-on-Windows)<br>
