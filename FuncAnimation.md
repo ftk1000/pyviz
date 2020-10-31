@@ -1,7 +1,11 @@
 []()<br>
 []()<br>
 []()<br>
-[]()<br>
+[YT 2015: How to use FFMPEG](https://www.youtube.com/watch?v=MPV7JXTWPWI)<br>
+[Suggestions on how to install ffmpeg](https://stackoverflow.com/questions/13316397/matplotlib-animation-no-moviewriters-available)<br>
+[A basic example how to create animation | Matplotlib Tutorial](https://learndataanalysis.org/a-basic-example-how-to-create-animation-atplotlib-tutorial/)<br>
+
+
 [YT 2019: Animations With matplotlib](https://www.youtube.com/watch?v=GtZxk8Wa3Jw)<br>
 
 # FuncAnimation_demo.ipynb
