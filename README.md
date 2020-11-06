@@ -3,6 +3,18 @@
 [2019: HABR: группировки и визуализации данных в Python](https://habr.com/ru/company/mailru/blog/445834/)<br>
 [2018: Визуализация данных для вашего Web-проекта](https://habr.com/ru/company/dataart/blog/417947/)<br>
 
+
+[2016: Jason Brownlee: Visualize Machine Learning Data in Python With Pandas](https://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/)<br>
+  - data.hist(),  
+  - data.plot(kind='density', subplots=True, layout=(3,3), sharex=False)
+  - data.plot(kind='box', subplots=True, layout=(3,3), sharex=False, sharey=False)
+  - data.corr()
+  - scatter_matrix(data)
+[]()<br>
+[]()<br>
+[]()<br>
+[]()<br>
+
 2020.05.16
 
 
