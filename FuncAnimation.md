@@ -4,8 +4,6 @@
 [STACKOVERFLOW: Suggestions on how to install ffmpeg](https://stackoverflow.com/questions/13316397/matplotlib-animation-no-moviewriters-available)<br>
 [WIKIHOW: How to Install FFmpeg on Windows](https://www.wikihow.com/Install-FFmpeg-on-Windows)<br>
 
-[A basic example how to create animation | Matplotlib Tutorial](https://learndataanalysis.org/a-basic-example-how-to-create-animation-atplotlib-tutorial/)<br>
-
 
 [YT 2019: Animations With matplotlib](https://www.youtube.com/watch?v=GtZxk8Wa3Jw)<br>
 
