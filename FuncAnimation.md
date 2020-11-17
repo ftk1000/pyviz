@@ -36,6 +36,10 @@
 
 # FuncAnimation_demo_v2.ipynb
 
+    %matplotlib inline
+    ################################################################
+    # code from https://www.youtube.com/watch?v=GtZxk8Wa3Jw
+    ################################################################
     import numpy as np
     import matplotlib.pyplot as plt
     from matplotlib.animation import FuncAnimation
@@ -57,7 +61,7 @@
 
     def animate(frame):
         # update plot
-        y = npsin(x +2*np.pi * frame/100)
+        y = np.sin(x +2*np.pi * frame/100)
         line.set_data((x,y))
 
     anim = FuncAnimation( fig, animate, frames=100, interval=20 )    
