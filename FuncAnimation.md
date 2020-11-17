@@ -8,7 +8,88 @@
 [YT 2019: Animations With matplotlib](https://www.youtube.com/watch?v=GtZxk8Wa3Jw)<br>
 
 
-# FuncAnimation_demo_v1.ipynb
+
+
+# demo1: SIN curve
+
+    %matplotlib inline
+    ################################################################
+    # code from https://www.youtube.com/watch?v=GtZxk8Wa3Jw
+    ################################################################
+    import numpy as np
+    import matplotlib.pyplot as plt
+    from matplotlib.animation import FuncAnimation
+    from IPython import display
+
+    output = plt.plot([])
+    plt.close()
+    print('output of plt.plot() is object = ', output[0])
+
+    x = np.linspace(0, 2*np.pi, 100)
+    fig = plt.figure()
+
+    line, = plt.plot([])
+    # print(line)
+
+    # OTHER SETUP
+    plt.xlim(0, 2*np.pi)
+    plt.ylim(-1,1)
+
+    def animate(frame):
+        # update plot
+        y = np.sin(x +2*np.pi * frame/100)
+        line.set_data((x,y))
+
+    anim = FuncAnimation( fig, animate, frames=100, interval=20 )    
+    video = anim.to_html5_video()
+    html = display.HTML(video)
+    display.display(html)
+    plt.close()
+    
+    
+# demo2 DOT MOVE ON ELLIPSE TRAJECTORY
+
+    %matplotlib inline
+    ################################################################
+    # code from https://www.youtube.com/watch?v=GtZxk8Wa3Jw
+    ################################################################
+    import numpy as np
+    import matplotlib.pyplot as plt
+    from matplotlib.animation import FuncAnimation
+    from IPython import display
+
+    output = plt.plot([])
+    plt.close()
+    print('output of plt.plot() is object = ', output[0])
+
+    x = np.linspace(0, 2*np.pi, 100)
+    fig = plt.figure()
+
+    lines = plt.plot([], 'o', c='r')
+    line = lines[0]
+    # line, = plt.plot([])
+    print( 'line = ', line)
+
+    # OTHER SETUP
+    plt.axis('scaled')
+    plt.xlim(-1.5, 1.5)
+    plt.ylim(-1.5, 1.5)
+
+    def animate(frame):
+        # update plot
+        x = 1.3*np.cos(frame/100*2*np.pi)
+        y = 0.6*np.sin(frame/100*2*np.pi)
+        line.set_data((x,y))
+
+    anim = FuncAnimation( fig, animate, frames=100, interval=30 )    
+    video = anim.to_html5_video()
+    html = display.HTML(video)
+    display.display(html)
+    plt.close()    
+    
+    
+    
+# demo3 : simple LINE animation
 
     %matplotlib notebook
     import numpy as np
@@ -34,42 +115,6 @@
     animation = FuncAnimation(fig, func=animation_frame, frames=np.arange(0, 10, 0.1), interval=10)
     plt.show()
 
-# FuncAnimation_demo_v2.ipynb
-
-    %matplotlib inline
-    ################################################################
-    # code from https://www.youtube.com/watch?v=GtZxk8Wa3Jw
-    ################################################################
-    import numpy as np
-    import matplotlib.pyplot as plt
-    from matplotlib.animation import FuncAnimation
-    from IPython import display
-
-    output = plt.plot([])
-    plt.close()
-    print(output[0])
-
-    x = np.linspace(0, 2*np.pi, 100)
-    fig = plt.figure()
-
-    line, = plt.plot([])
-    print(line)
-
-    # OTHER SETUP
-    plt.xlim(0, 2*np.pi)
-    plt.ylim(-1,1)
-
-    def animate(frame):
-        # update plot
-        y = np.sin(x +2*np.pi * frame/100)
-        line.set_data((x,y))
-
-    anim = FuncAnimation( fig, animate, frames=100, interval=20 )    
-    video = anim.to_html5_video()
-    html = display.HTML(video)
-    display.display(html)
-    plt.close()
-    
 # How to enable animation on Win10 with Anaconda?
 
 * read [https://stackoverflow.com/questions/13316397/matplotlib-animation-no-moviewriters-available](https://stackoverflow.com/questions/13316397/matplotlib-animation-no-moviewriters-available)<br>
