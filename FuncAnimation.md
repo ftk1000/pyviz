@@ -47,7 +47,7 @@
     plt.close()
     
     
-# demo2 DOT MOVE ON ELLIPSE TRAJECTORY
+# demo2: a Dot MOVING ON ELLIPTIC TRAJECTORY
 
     %matplotlib inline
     ################################################################
