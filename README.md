@@ -1,8 +1,10 @@
 # pyviz - python visualization tricks
+[Visualization with Matplotlib on COLAB: github/jakevdp/PythonDataScienceHandbook](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb#scrollTo=TZGGO5cuCvXL)<br>
+<br>
 [2019: HABR: Другой GitHub: репозитории по Data Science, визуализации данных и глубокому обучению](https://habr.com/ru/company/mailru/blog/437940/)<br>
 [2019: HABR: группировки и визуализации данных в Python](https://habr.com/ru/company/mailru/blog/445834/)<br>
 [2018: Визуализация данных для вашего Web-проекта](https://habr.com/ru/company/dataart/blog/417947/)<br>
-
+[]()<br>
 
 [2016: Jason Brownlee: Visualize Machine Learning Data in Python With Pandas](https://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/)<br>
   - data.hist(),  
