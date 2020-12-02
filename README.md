@@ -49,7 +49,7 @@
 
 ### MATLAB options
 [2016: YT: MATLAB Live Editor DEMO](https://www.youtube.com/watch?v=jI56Qe1tLFQ)<br>
-[]()<br>
+[MATLAB Self-Paced Courses](https://matlabacademy.mathworks.com/)<br>
 []()<br>
 []()<br>
 
