@@ -15,7 +15,8 @@ https://docs.microsoft.com/en-us/answers/questions/136595/error-microsoft-visual
 download vs_buildtools__618911391.1599087397.exe and follow the instructions
 
 
-=====================================================
+***
+
 [https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html](https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html)<br>
 
       An Axes3D object is created just like any other axes using the projection=‘3d’ keyword. 
