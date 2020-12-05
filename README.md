@@ -1,3 +1,7 @@
+# Smooth fitting and surface plotting links
+[https://github.com/nschloe/smoothfit](https://github.com/nschloe/smoothfit)<br>
+[]()<br>
+
 # pyviz - python visualization tricks
 [Visualization with Matplotlib on COLAB: github/jakevdp/PythonDataScienceHandbook](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb#scrollTo=TZGGO5cuCvXL)<br>
 <br>
