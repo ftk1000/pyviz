@@ -7,6 +7,7 @@
 [MATLAB: signal-smoothing ](https://www.mathworks.com/videos/signal-smoothing-97060.html)<br>
    - moving average filter (con:lag)<br>
    - Savitzky-Golay Filter (3rd , 4th order poly)<br>
+   
 [MATLAB Curve fitting toolbox](https://www.mathworks.com/videos/curve-fitting-toolbox-overview-61198.html?s_tid=srchtitle)<br>
 []()<br>
 []()<br>
