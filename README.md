@@ -3,8 +3,9 @@
 [ftk1000/pyviz: 2D extrapolation and Surf Plotting with SKFDA](https://github.com/ftk1000/pyviz/blob/master/3D_skfda_extrapolation_demo2.ipynb)<br>
 [ftk1000/pyviz: Smoothing and Forecasting posts from Marco Cerliani](https://github.com/ftk1000/pyviz/blob/master/smoothing_forecasting.md)<br>
 [ftk1000/pyviz: 3D_triangulation.ipynb](https://github.com/ftk1000/pyviz/blob/master/3D_triangulation.ipynb)<br>
-[]()<br>
-
+[MATLAB: signal-smoothing ](https://www.mathworks.com/videos/signal-smoothing-97060.html)<br>
+   - moving average filter (con:lag)<br>
+   - Savitzky-Golay Filter (3rd , 4th order poly)<br>
 
 
 # pyviz - python visualization tricks
