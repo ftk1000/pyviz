@@ -10,8 +10,17 @@
    
 [MATLAB Curve fitting toolbox](https://www.mathworks.com/videos/curve-fitting-toolbox-overview-61198.html?s_tid=srchtitle)<br>
 [MATLAB: data-driven-fitting](https://www.mathworks.com/videos/data-driven-fitting-with-matlab-81809.html)<br>
+
+## github.com/nschloe
+[github.com/nschloe](https://github.com/nschloe?tab=repositories)<br>
+[nschloe/meshzoo](https://github.com/nschloe/meshzoo)<br>
+[nschloe/smoothfit](https://github.com/nschloe/smoothfit)<br>
 []()<br>
 []()<br>
+
+## Lowess
+[2019: Mike Langen: Creating powerfull LOWESS graphs in Python](https://medium.com/@langen.mu/creating-powerfull-lowess-graphs-in-python-e0ea7a30b17a)<br>
+[www.jtrive.com/loess-nonparametric-scatterplot-smoothing-in-python](http://www.jtrive.com/loess-nonparametric-scatterplot-smoothing-in-python.html#Footnotes:)<br>
 
 
 # pyviz - python visualization tricks
