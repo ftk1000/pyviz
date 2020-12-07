@@ -12,12 +12,18 @@
 
 ## Theory
 
+[bzarg.com: How a Kalman filter works, in pictures](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)<br>
+[See LONG and DETAILED comment from **kabdulla** ](https://stackoverflow.com/questions/43377626/how-to-use-kalman-filter-in-python-for-location-data)<br>
+[]()<br>
+
 [2016: Jeff Miller: jwmi.github.io: Kalman filter and smoother](https://jwmi.github.io/ASM/6-KalmanFilter.pdf) See full course if Advanced Stochastic Modeling [here](https://jwmi.github.io/ASM/)<br>
 [2020: Shane Barratt Stephen Boyd: Fitting a Kalman Smoother to Data](https://stanford.edu/~boyd/papers/pdf/auto_ks.pdf)<br>
 [2004: B.M.Yu et al: Derivation of Kalman Filtering and Smoothing Equations](http://users.ece.cmu.edu/~byronyu/papers/derive_ks.pdf)<br>
 [https://en.wikipedia.org/wiki/Kalman_filter](https://en.wikipedia.org/wiki/Kalman_filter)<br>
-[bzarg.com: How a Kalman filter works, in pictures](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)<br>
 []()<br>
+[]()<br>
+[]()<br>
+
 
 ## Implementations 
 
