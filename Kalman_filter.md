@@ -13,7 +13,7 @@
 
 [MATLAB fileexchange: forward-backwards-kalman-filter](https://www.mathworks.com/matlabcentral/fileexchange/69889-forward-backwards-kalman-filter)<br>
 [2016: Jeff Miller: KalmanFilter.jl (in Julia)](https://github.com/jwmi/KalmanFilter)<br>
-[2020: SBarrat github repo AUTO_KS](https://github.com/cvxgrp/auto_ks)<br>
+[2020: SBarrat github repo AUTO_KS in Py](https://github.com/cvxgrp/auto_ks)<br>
 []()<br>
 []()<br>
 []()<br>
