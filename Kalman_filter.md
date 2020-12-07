@@ -16,7 +16,7 @@
 [2020: Shane Barratt Stephen Boyd: Fitting a Kalman Smoother to Data](https://stanford.edu/~boyd/papers/pdf/auto_ks.pdf)<br>
 [2004: B.M.Yu et al: Derivation of Kalman Filtering and Smoothing Equations](http://users.ece.cmu.edu/~byronyu/papers/derive_ks.pdf)<br>
 [https://en.wikipedia.org/wiki/Kalman_filter](https://en.wikipedia.org/wiki/Kalman_filter)<br>
-[]()<br>
+[bzarg.com: How a Kalman filter works, in pictures](http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/)<br>
 []()<br>
 
 ## Implementations 
