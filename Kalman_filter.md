@@ -8,6 +8,8 @@
 
 # Kamlan Filter 
 
+[Detailed Book + Lots of Py Code on github https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)<br>
+
 ## Theory
 
 [2016: Jeff Miller: jwmi.github.io: Kalman filter and smoother](https://jwmi.github.io/ASM/6-KalmanFilter.pdf) See full course if Advanced Stochastic Modeling [here](https://jwmi.github.io/ASM/)<br>
