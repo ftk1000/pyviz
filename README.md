@@ -21,7 +21,7 @@
 ## Lowess
 [2019: Mike Langen: Creating powerfull LOWESS graphs in Python](https://medium.com/@langen.mu/creating-powerfull-lowess-graphs-in-python-e0ea7a30b17a)<br>
 [www.jtrive.com/loess-nonparametric-scatterplot-smoothing-in-python](http://www.jtrive.com/loess-nonparametric-scatterplot-smoothing-in-python.html#Footnotes:)<br>
-
+[2020: LOWESS from github.com/CCGE-Cambridge/lowess](https://github.com/CCGE-Cambridge/lowess)<br>
 
 # pyviz - python visualization tricks
 [Visualization with Matplotlib on COLAB: github/jakevdp/PythonDataScienceHandbook](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb#scrollTo=TZGGO5cuCvXL)<br>
