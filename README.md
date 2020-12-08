@@ -1,27 +1,5 @@
-# Smooth fitting and surface plotting links
-[https://github.com/nschloe/smoothfit](https://github.com/nschloe/smoothfit)<br>
-[ftk1000/pyviz: 2D extrapolation and Surf Plotting with SKFDA](https://github.com/ftk1000/pyviz/blob/master/3D_skfda_extrapolation_demo2.ipynb)<br>
-[ftk1000/pyviz: Smoothing and Forecasting posts from Marco Cerliani](https://github.com/ftk1000/pyviz/blob/master/smoothing_forecasting.md)<br>
-[ftk1000/pyviz: 3D_triangulation.ipynb](https://github.com/ftk1000/pyviz/blob/master/3D_triangulation.ipynb)<br>
-[MATLAB Smoothing related videos](https://www.mathworks.com/videos/search.html?q=smoothing&page=1)<br>
-[MATLAB: signal-smoothing ](https://www.mathworks.com/videos/signal-smoothing-97060.html)<br>
-   - moving average filter (con:lag)<br>
-   - Savitzky-Golay Filter (3rd , 4th order poly)<br>
-   
-[MATLAB Curve fitting toolbox](https://www.mathworks.com/videos/curve-fitting-toolbox-overview-61198.html?s_tid=srchtitle)<br>
-[MATLAB: data-driven-fitting](https://www.mathworks.com/videos/data-driven-fitting-with-matlab-81809.html)<br>
-
-## github.com/nschloe
-[github.com/nschloe](https://github.com/nschloe?tab=repositories)<br>
-[nschloe/meshzoo](https://github.com/nschloe/meshzoo)<br>
-[nschloe/smoothfit](https://github.com/nschloe/smoothfit)<br>
-[]()<br>
-[]()<br>
-
-## Lowess
-[2019: Mike Langen: Creating powerfull LOWESS graphs in Python](https://medium.com/@langen.mu/creating-powerfull-lowess-graphs-in-python-e0ea7a30b17a)<br>
-[www.jtrive.com/loess-nonparametric-scatterplot-smoothing-in-python](http://www.jtrive.com/loess-nonparametric-scatterplot-smoothing-in-python.html#Footnotes:)<br>
-[2020: LOWESS from github.com/CCGE-Cambridge/lowess](https://github.com/CCGE-Cambridge/lowess)<br>
+# [KF Notes](https://github.com/ftk1000/pyviz/blob/master/Kalman_filter.md)<br>
+# [3D_surface_plot.md]()<br>
 
 # pyviz - python visualization tricks
 [Visualization with Matplotlib on COLAB: github/jakevdp/PythonDataScienceHandbook](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb#scrollTo=TZGGO5cuCvXL)<br>
