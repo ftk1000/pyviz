@@ -1,5 +1,5 @@
-# [KF Notes](https://github.com/ftk1000/pyviz/blob/master/Kalman_filter.md)<br>
-# [3D_surface_plot.md]()<br>
+# [Kalman_filter.md](https://github.com/ftk1000/pyviz/blob/master/Kalman_filter.md)<br>
+# [3D_surface.md](https://github.com/ftk1000/pyviz/blob/master/3D_surface.md)<br>
 
 # pyviz - python visualization tricks
 [Visualization with Matplotlib on COLAB: github/jakevdp/PythonDataScienceHandbook](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb#scrollTo=TZGGO5cuCvXL)<br>
