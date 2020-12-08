@@ -14,7 +14,7 @@
 ### 2015 Roger R. Labbe Jr (https://github.com/rlabbe/)<br>
 [Book: *Kalman and Bayesian Filters* by R.R.Labbe Jr](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python/)<br>
 
-    **Motivation for this Book**: I'm a software engineer that spent almost two decades in aerospace, and so I have always been 'bumping elbows' with the Kalman filter, but never implemented one. They've always had a fearsome reputation for difficulty. The theory is beautiful, but quite difficult to learn if you are not already well trained in topics such as signal processing, control theory, probability and statistics, and guidance and control theory. As I moved into solving tracking problems with computer vision the need to implement them myself became urgent.<br>
+**Motivation for this Book**: I'm a software engineer that spent almost two decades in aerospace, and so I have always been 'bumping elbows' with the Kalman filter, but never implemented one. They've always had a fearsome reputation for difficulty. The theory is beautiful, but quite difficult to learn if you are not already well trained in topics such as signal processing, control theory, probability and statistics, and guidance and control theory. As I moved into solving tracking problems with computer vision the need to implement them myself became urgent.<br>
 
 [Detailed Book + Lots of Py Code on github https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)<br>
 
