@@ -64,7 +64,6 @@
 
 
 []()<br>
-[https://dsp.stackexchange.com/](https://dsp.stackexchange.com/)<br>
 []()<br>
 []()<br>
 []()<br>
@@ -86,7 +85,7 @@
 
 ### Other
 
-[Community for asking quesitons about FILTERS https://dsp.stackexchange.com/](https://dsp.stackexchange.com/)<br>
+[https://dsp.stackexchange.com/ - Community for asking quesitons about FILTERS https://dsp.stackexchange.com/](https://dsp.stackexchange.com/)<br>
 [Py Smoother recommender by Pikhletski https://github.com/nschloe/smoothfit](https://github.com/nschloe/smoothfit)<br>
 []()<br>
 []()<br>
