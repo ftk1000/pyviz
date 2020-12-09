@@ -1,3 +1,49 @@
+# HOW TO PLOT SURFACE OF EXPERIMENTAL DATA
+
+[StackOF: plot-a-3d-surface-from-x-y-z-scatter-data-in-python](https://stackoverflow.com/questions/17367558/plot-a-3d-surface-from-x-y-z-scatter-data-in-python)<br>
+
+Where do your x,y,z points come from? If you are generating them by some function z = f(x,y), you could modify f so that it would accept 2D arrays of x,y coordinates. Alternatively you could try to resample your data on a regular grid, for example using [scipy.interpolate.griddata](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.griddata.html#scipy.interpolate.griddata). Once you have your x,y,z values in a set of regular 2D arrays you can just use plot_surface
+
+plot_surface expects X,Y,Z values in the form of 2D arrays, as would be returned by np.meshgrid. When the inputs are regularly gridded in this way, the plot function implicitly knows which vertices in the surface are adjacent to one another and therefore should be joined with edges. In your example, however, you're handing it 1D vectors of coordinates, so the plotting function would need to be able to figure out which vertices should be joined.
+
+The plot_trisurf function does handle irregularly spaced points by doing a Delaunay triangulation to determine which points should be joined with edges in such a way as to avoid 'thin triangles'
+
+## [STackOF: How to remove unwanted triangles in plot_trisurf](https://stackoverflow.com/questions/16300809/matplotlib-avoiding-unwanted-triangles-in-plot-trisurf)
+
+The reason you are getting triangles in the smaller circle is not a max-distance thing, it is because those triangles are contained within the convex hull of your points projection on the x,y plane.
+
+If you look at the plot_trisurf source, (**numpy.source(Axes3D.plot_trisurf**)) you'll see that it performs delaunay triangulation every time and there is no opportunity to define your triangles or exclude unwanted triangles.
+
+Two options:
+
+**the right way #1** 
+
+copy the source of plot_trisurf to your script and add the line tri.set_mask(...) (tri is a matplotlib.tri.triangulation.Triangulation instance) using the algo of your choice (some max edge length criteria or find triangles who centroids are within some radius.. whatever suits your actual data) to create the boolean mask after triangulation is done.
+
+
+### python triangulation 3d
+
+https://plotly.com/python/v3/surface-triangulation/
+
+https://matplotlib.org/3.1.0/gallery/mplot3d/trisurf3d_2.html
+
+https://matplotlib.org/3.3.3/api/tri_api.html
+
+https://stackoverflow.com/questions/20025784/how-to-visualize-3d-delaunay-triangulation-in-python
+
+
+
+***
+
+## SciKit-FDA<br>
+
+Before beginning to use the functionalities of the package, it is necessary to represent the data in functional form, using one of the following classes, which allow the visualization, evaluation and treatment of the data in a simple way, using the advantages of the object-oriented programming.
+
+[SciKit-FDA: Extrapolation. Shows the usage of the different types of extrapolation.](https://fda.readthedocs.io/en/latest/auto_examples/plot_extrapolation.html#)<br>
+
+[SciKit-FDA: BSpline (skfda.representation.basis.BSpline)](https://fda.readthedocs.io/en/latest/modules/autosummary/skfda.representation.basis.BSpline.html?highlight=extrapolation#examples-using-skfda-representation-basis-bspline)<br>
+
+
 
 #### How to install skfda
 https://pypi.org/project/scikit-fda/
@@ -168,17 +214,6 @@ https://towardsdatascience.com/time-series-smoothing-for-better-forecasting-7fbf
 
 
 
-
-
-### SciKit-FDA<br>
-
-Before beginning to use the functionalities of the package, it is necessary to represent the data in functional form, using one of the following classes, which allow the visualization, evaluation and treatment of the data in a simple way, using the advantages of the object-oriented programming.
-
-[SciKit-FDA: Extrapolation. Shows the usage of the different types of extrapolation.](https://fda.readthedocs.io/en/latest/auto_examples/plot_extrapolation.html#)<br>
-
-[SciKit-FDA: BSpline (skfda.representation.basis.BSpline)](https://fda.readthedocs.io/en/latest/modules/autosummary/skfda.representation.basis.BSpline.html?highlight=extrapolation#examples-using-skfda-representation-basis-bspline)<br>
-
-
 ### python triangulation 2d
 
 
@@ -186,15 +221,6 @@ Before beginning to use the functionalities of the package, it is necessary to r
 
 
 
-### python triangulation 3d
-
-https://plotly.com/python/v3/surface-triangulation/
-
-https://matplotlib.org/3.1.0/gallery/mplot3d/trisurf3d_2.html
-
-https://matplotlib.org/3.3.3/api/tri_api.html
-
-https://stackoverflow.com/questions/20025784/how-to-visualize-3d-delaunay-triangulation-in-python
 
 
 
