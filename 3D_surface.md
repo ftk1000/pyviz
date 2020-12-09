@@ -275,6 +275,14 @@ https://www.mathworks.com/matlabcentral/fileexchange/69889-forward-backwards-kal
 
 # MATLAB Surface Fitting Options
 
+	flowess = fit([T.x, T.y],T.mean,'lowess');
+	figure
+	plot( flowess, [T.x, T.y], T.mean )
+	xlabel('x')
+	ylabel('y')
+	zlabel('mean value')
+	title('fitted data - lowess')
+
 I tried the following surface fitting options
 
 	flowess = fit([T.x, T.y],T.mean,'lowess');
