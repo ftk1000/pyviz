@@ -275,6 +275,7 @@ https://www.mathworks.com/matlabcentral/fileexchange/69889-forward-backwards-kal
 
 # MATLAB Surface Fitting Options
 
+	T = readtable(fn)
 	flowess = fit([T.x, T.y],T.mean,'lowess');
 	figure
 	plot( flowess, [T.x, T.y], T.mean )
