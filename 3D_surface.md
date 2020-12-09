@@ -273,7 +273,21 @@ https://www.mathworks.com/matlabcentral/fileexchange/69889-forward-backwards-kal
 
 
 
+# MATLAB Surface Fitting Options
 
+I tried the following surface fitting options
+
+	flowess = fit([T.x, T.y],T.mean,'lowess');
+	flinearinterp = fit([T.x, T.y],T.mean,'linearinterp');
+	fpoly32 = fit([T.x, T.y],T.mean,'poly32');
+	frat33 = fit([T.x, T.y],T.mean,'rat33');         % <- does not work
+
+The last one is supposed to have only one argument, which is not clear to me why. Is there ?
+Click [here](https://www.mathworks.com/help/releases/R2020b/curvefit/list-of-library-models-for-curve-and-surface-fitting.html#btbcvnl) to see documentation describing rat33 and more options.<br>
+https://www.mathworks.com/help/releases/R2020b/curvefit/list-of-library-models-for-curve-and-surface-fitting.html#btbcvnl<br>
+
+[Here](https://www.mathworks.com/help/releases/R2020b/curvefit/fit.html#bto2vuv-11) is an example on how to write your own custom ones:
+https://www.mathworks.com/help/releases/R2020b/curvefit/fit.html#bto2vuv-11
 
 # MATLAB + PYTHON
 
