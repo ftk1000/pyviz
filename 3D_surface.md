@@ -298,6 +298,17 @@ https://www.mathworks.com/help/releases/R2020b/curvefit/list-of-library-models-f
 [Here](https://www.mathworks.com/help/releases/R2020b/curvefit/fit.html#bto2vuv-11) is an example on how to write your own custom ones:
 https://www.mathworks.com/help/releases/R2020b/curvefit/fit.html#bto2vuv-11
 
+
+[Here](https://www.mathworks.com/matlabcentral/answers/47630-how-to-use-fittype-and-fit-to-get-a-logarithmic-fit-to-some-data) is an example how to fit **A+B*log(x)**
+
+	x = linspace(1,100)  
+	y = 5 + 7*log(x);
+	myfit = fittype('a + b*log(x)',...
+	'dependent',{'y'},'independent',{'x'},...
+	'coefficients',{'a','b'});
+	fit(x',y',myfit)
+
+
 # MATLAB + PYTHON
 
 https://github.com/arokem/python-matlab-bridge
