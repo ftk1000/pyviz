@@ -309,6 +309,7 @@ https://www.mathworks.com/help/releases/R2020b/curvefit/fit.html#bto2vuv-11
 	fit(x',y',myfit)
 
 [Working example](https://www.mathworks.com/matlabcentral/answers/80285-cfit-object-doesn-t-work-with-plot-or-differentiate) from matlabcentral on how to fit a custome function and prot the results
+
 	%% EXAMPLE from https://www.mathworks.com/matlabcentral/answers/80285-cfit-object-doesn-t-work-with-plot-or-differentiate
 	%%Generate some random data, and plot it
 	data_x = 1:50;
@@ -329,6 +330,15 @@ https://www.mathworks.com/help/releases/R2020b/curvefit/fit.html#bto2vuv-11
 	    plot(f, '-r');
 	hold off;
 	title('Fitted data');
+
+[Same link](https://www.mathworks.com/matlabcentral/answers/80285-cfit-object-doesn-t-work-with-plot-or-differentiate) from matlabcentral on how to fit and differentiate
+
+	x = (0:.01:4)';                                         %
+	y = -4 + 8./(1+exp(4.*(x - 2))) + .5*randn(numel(x),1); % your data
+	ftfun = fit(x,y,fittype(@(a,b,c,d,x)a + b./(1+exp(c.*(x - d)))),...
+								  'Startpoint',[1 1 1 1])
+	dft = differentiate(ftfun,x);
+	plot(x,[y,ftfun(x),dft])
 
 # MATLAB + PYTHON
 
