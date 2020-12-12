@@ -1,0 +1,100 @@
+#-------------------------------------------
+# Dockerfile
+#-------------------------------------------
+FROM tensorflow/tensorflow
+#???? Can we specify and force VERSION? 
+
+RUN useradd -ms /bin/bash docker      
+# 'docker' is a userName, could be 'farid'???
+# -ms  see: https://stackoverflow.com/questions/49955097/how-do-i-add-a-user-when-im-using-alpine-as-a-base-image/49955098
+
+RUN su docker
+
+RUN apt-get update \
+  && apt-get install -y python3-pip python3-dev \
+  && pip3 install --upgrade pip
+
+COPY requirements.txt /root/datascience/requirements.txt
+WORKDIR /root/datascience
+RUN pip3 install -r requirements.txt
+
+RUN apt-get update
+
+RUN apt-get install -y wget && rm -rf /var/lib/apt/lists/*
+
+ENTRYPOINT jupyter notebook --ip=0.0.0.0 --port=8888 --NotebookApp.token='' --NotebookApp.password='' --allow-root
+
+#-------------------------------------------
+# requirements
+#-------------------------------------------
+
+# versions matching what is in COLAB as on 2020.12.12
+jupyter=1.0.0
+matplotlib=3.2.2
+tensorflow=2.3.0
+numpy=1.18.5
+pandas=1.1.5
+
+#import matplotlib, pandas, numpy, tensorflow, jupyter
+#print(matplotlib.__version__)
+#print(pandas.__version__)
+#print(numpy.__version__)
+#print(tensorflow.__version__)
+#print(jupyter.__version__)
+
+
+#-------------------------------------------
+# steps and commands
+#-------------------------------------------
+
+1. Docker Desktop for Windows. You can download Docker Desktop for Windows from Docker Hub.
+	https://hub.docker.com/editions/community/docker-ce-desktop-windows
+  
+2. Create a project folder and create dockerfile with content as above
+
+3. Create requirements.txt file and add package name list with content as above. You can specify with or without version information.
+
+4. BUILD A CONTAINER: Run the dockerfile from from project location/folder and create docker image
+	docker build -t <container_name> .
+	docker build -t dscontainer .
+
+WHERE IS THE OUTPUT OF THE LAST COMMAND ???
+
+5. Run the container
+	docker run -it -p 8080:8080 <name>
+	docker run -it -p 8080:8080 dscontainer
+
+why do we need two port numbers in docker run -it -p 8888:8888 dscontainer
+
+6. Copy the URL from the console or try http://localhost:8888/ from browser.
+
+Jupyter is up now.
+If you run into trouble run the following command to download the logfile to your current directory	
+	docker cp <container-name>:/root/dockerLogs/install-logs.log .	
+If you want to start an interactive session inside the container type in the following command 	
+	docker exec -it <container name> /bin/bash
+
+
+#-------------------------------------------
+# OTHER Docker commands
+#-------------------------------------------
+
+
+https://hub.docker.com/_/python
+
+docker container ls
+CONTAINER ID   IMAGE         COMMAND                  CREATED         STATUS         PORTS                    NAMES
+8c1bdf51c4a5   dscontainer   "/bin/sh -c 'jupyter…"   9 minutes ago   Up 9 minutes   0.0.0.0:8080->8080/tcp   loving_cori
+
+docker cp loving_cori:/root/datascience/test.png 'C:\Users\PeterDockerProjFolder'
+
+docker container ls -a
+docker  stop <cont_name>
+docker  stop loving_cori 
+
+docker system prune -a
+
+https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf
+
+docker run -i -t continuumio/anaconda /bin/bash
+
