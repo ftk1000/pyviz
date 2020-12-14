@@ -36,12 +36,13 @@ numpy==1.18.5
 pandas==1.1.5
 keras==2.4.3
 
-#import matplotlib, pandas, numpy, tensorflow, jupyter
+#import matplotlib, pandas, numpy, tensorflow, jupyter, keras
 #print(matplotlib.__version__)
 #print(pandas.__version__)
 #print(numpy.__version__)
 #print(tensorflow.__version__)
 #print(jupyter.__version__)
+#print(keras.__version__)
 
 
 #-------------------------------------------
@@ -91,6 +92,8 @@ CONTAINER ID   IMAGE         COMMAND                  CREATED         STATUS    
 8c1bdf51c4a5   dscontainer   "/bin/sh -c 'jupyter…"   9 minutes ago   Up 9 minutes   0.0.0.0:8080->8080/tcp   loving_cori
 
 docker cp loving_cori:/root/datascience/test.png 'C:\Users\PeterDockerProjFolder'
+
+docker cp w2v_demo.ipynb  dazzling_rubin:/root/datascience/ 
 
 docker container ls -a
 docker  stop <cont_name>
