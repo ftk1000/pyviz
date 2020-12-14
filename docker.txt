@@ -29,11 +29,11 @@ ENTRYPOINT jupyter notebook --ip=0.0.0.0 --port=8888 --NotebookApp.token='' --No
 #-------------------------------------------
 
 # versions matching what is in COLAB as on 2020.12.12
-jupyter=1.0.0
-matplotlib=3.2.2
-tensorflow=2.3.0
-numpy=1.18.5
-pandas=1.1.5
+jupyter==1.0.0
+matplotlib==3.2.2
+tensorflow==2.3.0
+numpy==1.18.5
+pandas==1.1.5
 
 #import matplotlib, pandas, numpy, tensorflow, jupyter
 #print(matplotlib.__version__)
@@ -53,6 +53,9 @@ pandas=1.1.5
 2. Create a project folder and create dockerfile with content as above
 
 3. Create requirements.txt file and add package name list with content as above. You can specify with or without version information.
+
+3b. on MAC do this first
+docker_files khafifa$ pip3 install --upgrade pip
 
 4. BUILD A CONTAINER: Run the dockerfile from from project location/folder and create docker image
 	docker build -t <container_name> .
