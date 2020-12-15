@@ -54,8 +54,10 @@
 [2016: YT: MATLAB Live Editor DEMO](https://www.youtube.com/watch?v=jI56Qe1tLFQ)<br>
 [MATLAB Self-Paced Courses](https://matlabacademy.mathworks.com/)<br>
 [MATLAB Webinar: signal-processing-and-machine-learning-techniques-for-sensor-data-analytics](https://www.mathworks.com/videos/signal-processing-and-machine-learning-techniques-for-sensor-data-analytics-107549.html)<br>
+[2019: YT: Using MATLAB with Python](https://www.youtube.com/watch?v=y7NBT6O0fJU)<br>
 []()<br>
-
+[]()<br>
+[]()<br>
 
 
 2020.05.16
