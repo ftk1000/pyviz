@@ -8,6 +8,9 @@
 [2019: HABR: группировки и визуализации данных в Python](https://habr.com/ru/company/mailru/blog/445834/)<br>
 [2018: Визуализация данных для вашего Web-проекта](https://habr.com/ru/company/dataart/blog/417947/)<br>
 [2017:YT: How to Make a Google Map from Excel ](https://www.youtube.com/watch?v=SLMzhOoA29M)<br>
+      # (LONG, LAT) = (X,Y) = ( -96.7563	, 33.079976	)
+      # https://www.google.com/maps/@33.079976,-96.7563,11z
+* [test map](https://www.google.com/maps/d/viewer?hl=en&hl=en&mid=1kTnSD7UGKOotraN42TbkA_1BtefO5o-D&ll=33.078236123943924%2C-96.7541246033679&z=18)<br>
 []()<br>
 
 [2016: Jason Brownlee: Visualize Machine Learning Data in Python With Pandas](https://machinelearningmastery.com/visualize-machine-learning-data-python-pandas/)<br>
