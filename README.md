@@ -1,4 +1,9 @@
-* # [2020: Medium: Create-quick-and-powerful-guis](https://medium.com/datadriveninvestor/create-quick-and-powerful-guis-using-dear-pygui-in-python-713cc138bf5a)<br>
+## GUIs
+* [2020: Medium: Create-quick-and-powerful-guis](https://medium.com/datadriveninvestor/create-quick-and-powerful-guis-using-dear-pygui-in-python-713cc138bf5a)<br>
+* [github.com/chriskiehl/GooeyExamples](https://github.com/chriskiehl/GooeyExamples)<br>
+* [how-to-use-the-easiest-gui](https://codeburst.io/how-to-use-the-easiest-gui-of-your-life-in-python-d3762270a2a0)<br>
+* []()<br>
+* []()<br>
 
 # [Kalman_filter.md](https://github.com/ftk1000/pyviz/blob/master/Kalman_filter.md)<br>
 # [3D_surface.md](https://github.com/ftk1000/pyviz/blob/master/3D_surface.md)<br>
