@@ -1,3 +1,15 @@
+## Graph Viz Tools: Gephi, Cytoscape, NodeXL, GraphViz, mermaid
+
+* [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)<br>
+
+            Mermaid is a Javascript based diagramming and charting tool that uses Markdown-inspired text definitions and a 
+            renderer to create and modify complex diagrams. The main purpose of Mermaid is to help documentation catch up with development.
+            
+* []()<br>
+
+
+
+
 ## GUIs
 * [2020: Medium: Create-quick-and-powerful-guis](https://medium.com/datadriveninvestor/create-quick-and-powerful-guis-using-dear-pygui-in-python-713cc138bf5a)<br>
 * [github.com/chriskiehl/GooeyExamples](https://github.com/chriskiehl/GooeyExamples)<br>
