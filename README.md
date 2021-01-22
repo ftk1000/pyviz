@@ -1,11 +1,22 @@
-## Graph Viz Tools: Gephi, Cytoscape, NodeXL, GraphViz, mermaid
+## Graph Viz Tools: Gephi, Cytoscape, NodeXL, GraphViz, mermaid, networkX, igraph
 
 * [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)<br>
 
-            Mermaid is a Javascript based diagramming and charting tool that uses Markdown-inspired text definitions and a 
-            renderer to create and modify complex diagrams. The main purpose of Mermaid is to help documentation catch up with development.
+            Mermaid is a Javascript based diagramming and charting tool that uses 
+            Markdown-inspired text definitions and a renderer to create and modify 
+            complex diagrams. The main purpose of Mermaid is to help documentation 
+            catch up with development.
             
-* []()<br>
+* [kaggle.com/alexandervc/igraph-cheatsheet](https://www.kaggle.com/alexandervc/igraph-cheatsheet)            
+
+            Все библиотеки схожи по интерфейсу, просто нетворкХ написан на самом Питоне - 
+            поэтому медленный, но везде работает. Играф - написан на С, поэтому быстрый, 
+            но могут быть проблемы с тем чтобы его инсталировать - на каггле - он просто уже есть. 
+            На колаб без проблем ставится. Но бывают проблемы - например на нанохаб.
+            Еще одна тупая проблема с нетворкХ - если вам надо нарисать граф у которго есть селф-лупы - 
+            то НИКАК НЕЛЬЗЯ (ну насколько смог понять ) а это часто нужно . Играф без проблем рисует.
+
+* [Chapter 6 : Data Visualization   ipython-books/cookbook-2nd/tree/master/chapter06_viz](https://github.com/ipython-books/cookbook-2nd/tree/master/chapter06_viz)<br>
 
 
 
