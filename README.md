@@ -1,5 +1,13 @@
 ## Graph Viz Tools: Gephi, Cytoscape, NodeXL, GraphViz, mermaid, networkX, igraph
 
+* [Gephi - The Open Graph Viz Platform](https://github.com/gephi/gephi)<br>
+
+            an award-winning open-source platform for visualizing and manipulating large graphs. 
+            Sviatoslav Iguana (@IggiSv9t  Святослав мастер визуализаций): В Gephi всё есть. 
+            Там можно размазать сильнее вершины через Yifan Hu после какого-нибудь стандартного 
+            Force Atlas, настроить раскраску по атрибутам и потом в меню экспорта уже допилить 
+            все детали внешнего вида.
+
 * [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)<br>
 
             Mermaid is a Javascript based diagramming and charting tool that uses 
