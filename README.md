@@ -1,4 +1,16 @@
-## Graph Viz Tools: Gephi, Cytoscape, NodeXL, GraphViz, mermaid, networkX, igraph
+## Graph Viz Tools: Gephi, Cytoscape, NodeXL, GraphViz, mermaid, networkX, igraph, Jgraph
+
+            Semyon Sinchenko: Если для целей "просто посмотреть", то я бы предложил Gephi - там все это (Лоувэйн, 
+            Пэйдж Ранк, Форс Атлас 2 и т.д.) делается мышкой, при этом он вполне быстр, а потом 
+            можно будет для прода просто воспользоваться его API. Единственное - он под GPL идет, это надо учитывать.
+            
+            JGraphT. Я много юзал и по мне это лучшее (из либ под не GPL лицензиями) для "прода", 
+            хотя я бы не сказал, что она прямо мега мощная. Она просто по возрасту старше IGraph 
+            мне кажется, там есть целое море всяких алгоритмов, которые фиг где найдешь (остовные 
+            деревья, раскраски, изоморфизм и т.д.) и она мега-стабильная. Для графов с типами Int для 
+            вершин и ребер там есть https://jgrapht.org/javadoc/org.jgrapht.opt/org/jgrapht/opt/graph/fastutil/FastutilMapIntVertexGraph.html 
+            который быстр и хорош по памяти, но в целом C++ либы будет значимо быстрее. 
+            JGraphT это больше про энтерпрайз и стабильность.
 
 * [Gephi - The Open Graph Viz Platform](https://github.com/gephi/gephi)<br>
 
@@ -6,7 +18,8 @@
             Sviatoslav Iguana (@IggiSv9t  Святослав мастер визуализаций): В Gephi всё есть. 
             Там можно размазать сильнее вершины через Yifan Hu после какого-нибудь стандартного 
             Force Atlas, настроить раскраску по атрибутам и потом в меню экспорта уже допилить 
-            все детали внешнего вида.
+            все детали внешнего вида.Tам просто нужно двигать ползунки и смотреть, что выходит. 
+            Если через API то больше возни получится.
 
 * [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)<br>
 
@@ -23,6 +36,11 @@
             На колаб без проблем ставится. Но бывают проблемы - например на нанохаб.
             Еще одна тупая проблема с нетворкХ - если вам надо нарисать граф у которго есть селф-лупы - 
             то НИКАК НЕЛЬЗЯ (ну насколько смог понять ) а это часто нужно . Играф без проблем рисует.
+
+* [JGraphT](https://github.com/jgrapht/jgrapht)<br>
+
+            JGraphT is a free Java class library that provides mathematical graph-theory objects and algorithms. 
+            It runs on Java 2 Platform (requires JDK 11 or later starting with JGraphT 1.5.0).
 
 * [Chapter 6 : Data Visualization   ipython-books/cookbook-2nd/tree/master/chapter06_viz](https://github.com/ipython-books/cookbook-2nd/tree/master/chapter06_viz)<br>
 
