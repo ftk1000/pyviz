@@ -1,3 +1,9 @@
+# ANNOTATION 
+[different-colors-in-the-same-annotate](https://stackoverflow.com/questions/24108063/matplotlib-two-different-colors-in-the-same-annotate)<br>
+[]()<br>
+[]()<br>
+
+
 ## Graph Viz Tools: Gephi, Cytoscape, NodeXL, GraphViz, mermaid, networkX, igraph, Jgraph
 
             Semyon Sinchenko: Если для целей "просто посмотреть", то я бы предложил Gephi - там все это (Лоувэйн, 
