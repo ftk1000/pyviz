@@ -52,6 +52,24 @@
 * [Chapter 6 : Data Visualization   ipython-books/cookbook-2nd/tree/master/chapter06_viz](https://github.com/ipython-books/cookbook-2nd/tree/master/chapter06_viz)<br>
 
 
+## Viz Tools
+* [2020: Lionel Radisson (makio135): Observable & creative coding](https://observablehq.com/@makio135/creative-coding)
+
+      I'm a designer/maker/teacher and for 10 years, I've been playing with creative code doing generative 
+      graphics, digital fabrication, web experiments, interactive installations, …
+      Throughout these years, I've used many different tools including openprocessing, codepen, glitch, p5js editor, 
+      github pages, canvas-sketch, jsbin, codepan, codesandbox, replit,… when I heard about Observable, 
+      I thought why not try a new one 🤷🏼‍♂️  Table of Contents:
+            I. Generating SVGs
+            II. Motion
+            III. GLSL Shaders
+            IV. Conclusion
+
+* [2021: Наталия Степанова (d3js): Карты в визуализациях — Teletype](https://teletype.in/@gnykka/d3-maps)
+* [2018: Визуализация данных для киноманов: скрапим рекомендации фильмов и делаем интерактивный граф / Open Data Science company blog / Habr
+](https://habr.com/ru/company/ods/blog/348110/)
+
+
 
 
 ## GUIs
