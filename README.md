@@ -52,6 +52,9 @@
 * [Chapter 6 : Data Visualization   ipython-books/cookbook-2nd/tree/master/chapter06_viz](https://github.com/ipython-books/cookbook-2nd/tree/master/chapter06_viz)<br>
 
 
+
+
+
 ## Viz Tools
 * [2020: Lionel Radisson (makio135): Observable & creative coding](https://observablehq.com/@makio135/creative-coding)
 
@@ -66,8 +69,8 @@
             IV. Conclusion
 
 * [2021: Наталия Степанова (d3js): Карты в визуализациях — Teletype](https://teletype.in/@gnykka/d3-maps)
-* [2018: Визуализация данных для киноманов: скрапим рекомендации фильмов и делаем интерактивный граф / Open Data Science company blog / Habr
-](https://habr.com/ru/company/ods/blog/348110/)
+* [2018: iggisv9t: Визуализация данных для киноманов: скрапим рекомендации фильмов и делаем интерактивный граф / Open Data Science company blog / Habr](https://habr.com/ru/company/ods/blog/348110/)
+
 
 
 
