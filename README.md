@@ -1,3 +1,19 @@
+# Matplot lib tricks
+
+* [add two subplots to a figure. One subplot needs to be about three times as wide as the second (same height). ](https://stackoverflow.com/questions/10388462/matplotlib-different-size-subplots)
+
+            import numpy as np
+            import matplotlib.pyplot as plt 
+            # generate some data
+            x = np.arange(0, 10, 0.2);         y = np.sin(x)
+            # plot it
+            f, (a0, a1) = plt.subplots(1, 2, gridspec_kw={'width_ratios': [3, 1]})
+            a0.plot(x, y);                     a1.plot(y, x)
+            f.tight_layout()
+            f.savefig('grid_figure.pdf')
+
+
+
 # ANNOTATION 
 [different-colors-in-the-same-annotate](https://stackoverflow.com/questions/24108063/matplotlib-two-different-colors-in-the-same-annotate)<br>
 []()<br>
